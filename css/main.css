@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 50%;
+}
+
+.banner {
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.moths-body {
+  color: black;
+
+}
+
+.moths-title {
+color: white;
+font-size: 4rem;
+}
