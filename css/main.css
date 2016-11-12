@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -8,20 +9,35 @@ html {
 
 .img-flex {
   display: block;
-  width: 50%;
+  width: 100%;
 }
 
 .banner {
-  overflow: hidden;
+  max-height: 500px;
+  position: relative;
+}
+
+.banner-body {
+  max-width: 50em;
+position: absolute;
+}
+
+.banner-title {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  align-content: center;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  padding-bottom: 0;
+}
+
+p {
   font-size: 2rem;
 }
 
-.moths-body {
-  color: black;
-
-}
-
-.moths-title {
-color: white;
-font-size: 4rem;
+h2 {
+  align-items: center;
+  margin-top: -6.5em;
+  overflow: hidden;
 }
