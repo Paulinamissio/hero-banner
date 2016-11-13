@@ -19,16 +19,16 @@ html {
 
 .banner-body {
   max-width: 50em;
-position: absolute;
+  position: absolute;
 }
 
 .banner-title {
   font-size: 4rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
   color: white;
   align-content: center;
-  padding-left: 3rem;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 0;
 }
 
@@ -40,4 +40,10 @@ h2 {
   align-items: center;
   margin-top: -6.5em;
   overflow: hidden;
+  padding:
+}
+
+body {
+  margin: 0;
+  transform: translate();
 }
