@@ -9,38 +9,43 @@ html {
 
 .img-flex {
   display: block;
-  width: 100%;
-}
+    width: 100%;
+  }
 
-.banner {
-  max-height: 500px;
+    .banner {
+    max-height: 500px;
   position: relative;
 }
 
 .banner-body {
   max-width: 50em;
   position: absolute;
+  left: 5em;
+  bottom: 6em;
+  padding-left: 9rem;
+  padding-top: 1rem;
+
 }
 
 .banner-title {
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  align-content: center;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 0;
+  font-weight: bold;
 }
 
 p {
   font-size: 2rem;
+  padding-top: 1.5rem;
+  font-style: italic;
 }
 
 h2 {
   align-items: center;
   margin-top: -6.5em;
   overflow: hidden;
-  padding:
 }
 
 body {
